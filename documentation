@@ -1,0 +1,77 @@
+<!--                          DOCUMENTATION FOR TASK 1 -->
+Let's Explore......Shop With us....
+
+
+Choose  your Favourite products from the list..Exciting offers are Waiting..
+_____________________________________________________________________________
+
+
+**Flat  $10 discount  If cart total exceeds $200
+
+**Flat 5% discount on that items total price If the quantity of any single product exceeds 10 units
+
+**Flat  10% discount  If  total quantity exceeds 20 units
+
+**Flat  50% discount   ***NB: If total quantity exceeds 30 units & any single product quantity greater than 15, then apply a 50% discount on products which are above  15 quantity. The first 15 quantities have the original price and units above 15 will get a 50% discount.
+
+
+
+Product          price
+______________________
+Product A         $20
+Product B         $40
+Product C         $50
+
+<!-- if you nee Product A type yes otherwise no -->
+
+Do you Want product A
+
+<!-- if you enterd Yes also mention quantity -->
+
+
+Do you Want product A yes
+Enter the quantity
+
+
+
+Do you Want product A yes
+Enter the quantity    34
+Do you Want product B no
+Do you Want product C yes
+Enter the quantity    20
+
+
+Your items are added to cart!!!
+
+Do you want this product is wrapped as a gift?? NB:Extra charges are included
+
+<!-- If yes enter yes otherwise no -->
+
+Do you want this product is wrapped as a gift?? NB:Extra charges are included yes 
+your cart items are: {'ProductA': 34, 'ProductC': 20}
+Total product count= 54
+Discount details [('flat_10_discount', 10), ('bulk_10_discount', 168.0), ('bulk_5_discount', 34.0), ('bulk_5_discount', 190.0)]
+ Best offer selected for uou = bulk_5_discount
+Discount amount 190.0
+Gift wrap fee 54
+Total shipping fee 25
+The amount you have to paid  1569.0
+
+
+<!-- In case don't wrapped as a gift -->
+
+
+
+
+Do you want this product is wrapped as a gift?? NB:Extra charges are included no
+your cart items are: {'ProductA': 34, 'ProductC': 20}
+Total product count= 54
+Discount details [('flat_10_discount', 10), ('bulk_10_discount', 168.0), ('bulk_5_discount', 34.0), ('bulk_5_discount', 190.0)]
+ Best offer selected for uou = bulk_5_discount
+Discount amount 190.0
+Total shipping fee 25
+The amount you have to paid  1515.0
+
+
+
+
